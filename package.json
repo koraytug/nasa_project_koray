@@ -1,0 +1,30 @@
+{
+  "name": "nasa_proj_koray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-client": "npm install --prefix client",
+    "install-server": "npm install --no-optional --prefix server",
+    "install": "npm run install-server || npm run install-client",
+    "server-old": "cd server && npm run watch",
+    "client-old": "cd client && npm start",
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "watch": "start npm run server & start npm run client",
+    "watch-same": "  npm run server | npm run client",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testall": "npm test --prefix server && npm run test --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koraytug/nasa_project_koray.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koraytug/nasa_project_koray/issues"
+  },
+  "homepage": "https://github.com/koraytug/nasa_project_koray#readme"
+}
