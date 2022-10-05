@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/koraytug/nasa_project_koray/issues"
   },
-  "homepage": "https://github.com/koraytug/nasa_project_koray#readme"
+  "homepage": "https://github.com/koraytug/nasa_project_koray#readme",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
 }
